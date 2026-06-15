@@ -1,45 +1,42 @@
-# Mark
+Full-stack developer. I build tools that answer questions people actually search for — pricing calculators, comparison guides, monetization breakdowns.
 
-Full-stack developer building tools for Telegram creators and crypto traders.
-
-**Stack:** Next.js · TypeScript · PostgreSQL · Drizzle ORM · Railway · Tailwind CSS
+**Stack:** Next.js 15 · TypeScript · PostgreSQL · Drizzle ORM · Tailwind CSS · Railway
 
 ---
 
-## Projects
+## [StarsEarn.com](https://starsearn.com)
 
-### [StarsEarn](https://starsearn.com) — Telegram Stars tools
+Calculators and guides for Telegram creators, TON holders, and anyone dealing with Stars, Fragment, or crypto exchanges.
 
-Free calculators and guides for anyone buying, earning, or withdrawing Telegram Stars.
+The core problem: Telegram Stars have no single fixed price. Buyers pay different rates depending on platform (in-app adds a 30% Apple/Google markup; Fragment doesn't). Creators who earn Stars withdraw them at yet another rate via TON. Most people don't know the gap until they've already lost money on it.
 
-Telegram uses a fixed rate of **200 Stars = 1 TON**, but the USD value moves with the TON price — and buyers pay different prices depending on whether they go through the Telegram app (30% platform markup) or Fragment directly. StarsEarn tracks that gap.
+**Main calculator:**
 
-**Tools:**
-- **[Telegram Stars Calculator](https://starsearn.com/calculator)** — live buy price vs creator withdrawal value, TON and USD estimates updated in real time
-- **[Stars price guide](https://starsearn.com/guides/telegram-stars-price-calculator)** — why buyer price and creator value are different numbers
+→ **[How much are Telegram Stars worth right now?](https://starsearn.com/calculator)** — fetches live TON/USD, shows buyer price vs creator withdrawal value side by side, with examples for 100 / 500 / 1,000 / 5,000 Stars.
 
-**Popular guides:**
-- [How to convert Telegram Stars to USD](https://starsearn.com/guides/convert-telegram-stars-to-usd) — withdrawal rules, minimum 1,000 Stars, 21-day wait
-- [Cheapest way to buy Telegram Stars](https://starsearn.com/guides/cheapest-way-to-buy-stars) — Fragment vs in-app, real price comparison
-- [Fragment marketplace guide](https://starsearn.com/guides/fragment-marketplace-guide) — step-by-step with TON wallet setup
-- [Telegram Stars vs Premium](https://starsearn.com/guides/telegram-stars-vs-premium) — which actually makes sense to buy
+**Most-read guides:**
 
-**Tech:** Next.js 15 App Router · Drizzle ORM · PostgreSQL (Railway) · next-intl (6 locales: en, uk, de, fr, es, ru)
+- [Telegram Stars to USD — why the price has two numbers](https://starsearn.com/guides/telegram-stars-price-calculator)
+- [How to convert Telegram Stars to USD](https://starsearn.com/guides/convert-telegram-stars-to-usd) — minimum 1,000 Stars, 21-day hold, Stars → TON → exchange → USD
+- [Cheapest way to buy Telegram Stars in 2026](https://starsearn.com/guides/cheapest-way-to-buy-stars) — Fragment saves ~35% vs buying inside the app
+- [Fragment marketplace step-by-step](https://starsearn.com/guides/fragment-marketplace-guide) — TON wallet setup, buying process, common mistakes
+- [Telegram Stars vs Premium — which is worth buying?](https://starsearn.com/guides/telegram-stars-vs-premium)
+- [How to earn Telegram Stars as a creator](https://starsearn.com/guides/how-to-earn-telegram-stars)
+
+Available in 6 languages: EN · UK · DE · FR · ES · RU
 
 ---
 
-### [HubAggregator](https://hubaggregator.com) — Telegram bot monetization platform
+## [HubAggregator.com](https://hubaggregator.com)
 
-Revenue-share platform for Telegram bot and mini-app developers. Connects bots with advertisers on a 7% rev-share model.
+Revenue-share platform for Telegram bot and mini-app developers. 7% rev-share, direct advertiser connections.
 
 ---
 
 ## Writing
 
-- [Telegram Stars Economics for Bot Developers](https://dev.to/starsearn/telegram-stars-economics-for-bot-developers-what-your-stars-are-actually-worth-in-2026-2742) — dev.to
+- [Telegram Stars Economics for Bot Developers](https://dev.to/starsearn/telegram-stars-economics-for-bot-developers-what-your-stars-are-actually-worth-in-2026-2742) — what your Stars are actually worth in 2026
 
 ---
-
-## Contact
 
 partners@starsearn.com
